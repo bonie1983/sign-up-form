@@ -1,0 +1,41 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+  }
+
+.left {
+    display: flex;
+    background-image: url("../sign-up-form/images/barricas.png");
+    background-size: cover;
+    background-color: brown;
+    border: 2px red solid;
+    align-items: center;
+    width: 400px;
+    padding-bottom: 300px;
+}
+
+.logo {
+    height: 5%;
+    width: 100%;
+    color: white;
+    background-image: url("../sign-up-form/images/logo_gondez.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    padding-bottom: 100px;
+    background-color: rgba(00, 000, 00, 0.6);
+    backdrop-filter: ;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: aquamarine;
+    border: 2px red solid;
+    width: 700px;
+} 
